@@ -1,14 +1,13 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 
-# Ignore everything
+# Exclude everything
 /*
 
-# But not these files...
-!/.gitignore # Don't ignore .gitignore file
-!/Assets/    # Don't ignore the Assets folder
-!/Other Scripts/ # Don't ignore the Other Scripts folder
-!/ProjectSettings/ # Don't ignore the ProjectSettings folder
+# But include these specific directories
+!/Assets/
+!/Other Scripts/
+!/ProjectSettings/
 
 # Individual files can also be excluded from being ignored (if necessary)
 # !filename.extension
